@@ -1,0 +1,117 @@
+body, html {
+  font-size: 90% !important;
+}
+
+p {
+  font-size: 90% !important;
+  color: #6f6f6f !important;
+}
+
+//top and bottom bars
+.bar {
+  width: 100%;
+
+  div {
+    width: 75%;
+    height: 8px;
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
+//main
+#main {
+  height: 625px;
+  overflow: auto;
+  border-top: solid rgb(200, 200, 200) 4px;
+  border-bottom: solid rgb(200, 200, 200) 4px;
+  width: 75%;
+  margin: 20px auto;
+
+  .row {
+    height: 90%;
+    max-width: none;
+  }
+}
+
+
+//left
+#left {
+  /*background-image: url('/images/background_1.jpg');*/
+  height: 100%;
+
+  #name {
+    #j {
+      position: absolute;
+      right: 85px;
+      top: -20px;
+      font-size: 140px;
+    }
+    #first {
+      font-size: 3.75rem;
+      position: absolute;
+      right: -55px;
+    }
+    #last {
+      font-size: 5.1338rem;
+      position: absolute;
+      right: -80px;
+      top: 40px;
+    }
+    position: relative;
+    text-align: right;
+    margin-top: 80px;
+  }
+
+  img {
+    width: 120%;
+    max-width: 120%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+//middle
+#middle {
+
+  #vertical-bar {
+    height: 50px;
+    width: 2px;
+    background-color: rgb(200, 200, 200); 
+    margin-left: 80%;
+  }
+
+  .side-nav li a {
+    text-align: right;
+    color: black !important;
+    width: 50%;
+    margin-left: 50%;
+  }
+}
+
+
+//right
+#right {
+  height: 100%;
+  overflow: scroll;
+  margin: 2% 0;
+
+  h3 {
+    text-align: center;
+  }
+
+  #buy {
+    text-align: center;
+
+    img {
+      max-width: 67% !important;
+    }
+
+    #paypal-buy {
+      width: 33%;
+      display: block !important;
+      margin: 5% auto 0 auto !important;
+    }
+  }
+}
